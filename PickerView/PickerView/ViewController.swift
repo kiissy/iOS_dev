@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     let MAX_ARRAY_NUM = 10
-    let PICKER_VIEW_COLUMN = 1
+    let PICKER_VIEW_COLUMN = 2
     let PICKER_VIEW_HEIGHT:CGFloat = 80
     var imageArray = [UIImage?]()
     var imageFileName = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg",
